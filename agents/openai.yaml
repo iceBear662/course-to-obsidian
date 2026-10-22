@@ -1,0 +1,4 @@
+interface:
+  display_name: "课程转 Obsidian 学习书"
+  short_description: "把官方课程、教材与作业整理成中英对照、可离线阅读的 Markdown 学习书"
+  default_prompt: "使用 $course-to-obsidian，把这门课程整理成适合 Obsidian 的 Markdown 学习书，优先复用可靠中译本，并优化代码阅读。"
