@@ -1,0 +1,21 @@
+/* Apply to generated book notes with cssclasses: [course-book]. */
+.course-book {
+  --code-size: 0.94em;
+  --code-radius: 8px;
+  --font-monospace: "SFMono-Regular", Menlo, Consolas, "Liberation Mono", monospace;
+}
+.course-book pre,
+.course-book pre code,
+.course-book .codeblock-customizer-line-wrapper {
+  line-height: 1.65;
+  tab-size: 4;
+  font-variant-ligatures: none;
+}
+/* Use the document's chapter heading instead of a duplicate filename title. */
+.markdown-preview-view.course-book .metadata-container,
+.markdown-preview-view.course-book .inline-title {
+  display: none;
+}
+@media print {
+  .course-book .codeblock-customizer-button-container { display: none; }
+}
